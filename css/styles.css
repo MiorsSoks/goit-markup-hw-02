@@ -55,4 +55,30 @@ body {
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
+}
 /* ============ Хедер конец ============ */
+/* ============ Футер ============ */
+.logo-footer {
+  color: var(--primary-text-white-color);
+  font-family: var(--primary-font-family);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  background-color: #2f303a;
+}
+.address {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: #2f303a;
+  font-style: normal;
+  font-weight: 400;
+}
+.address.address-maps {
+  color: var(--primary-text-white-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+/* ============ футер конец ============ */
