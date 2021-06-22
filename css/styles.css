@@ -1,0 +1,58 @@
+/* ============ Переменные ============ */
+:root {
+  --title-text-color: #212121;
+  --primary-text-grey-color: #757575;
+  --accent-color: #2196f3;
+  --primary-text-white-color: #ffffff;
+  --title-font-family: "Roboto", sans-serif;
+  --primary-font-family: "Raleway", sans-serif;
+}
+/* ============ Переменные конец ============ */
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+body {
+  font-family: var(--title-font-family);
+  color: var(--title-text-color);
+  font-weight: 700;
+}
+/* ============ Хедер ============ */
+.first-word-logo {
+  color: var(--accent-color);
+}
+.logo {
+  color: #000000;
+  font-family: var(--primary-font-family);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.navigation .link-nav {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation .link-nav:hover,
+.navigation .link-nav:focus {
+  color: var(--accent-color);
+}
+.navigation .link.current {
+  color: var(--accent-color);
+}
+.contact {
+  color: var(--primary-text-grey-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+/* ============ Хедер конец ============ */
