@@ -18,7 +18,7 @@
 body {
   font-family: var(--title-font-family);
   color: var(--title-text-color);
-  font-weight: 700;
+  font-weight: 400;
 }
 /* ============ Хедер ============ */
 .first-word-logo {
@@ -30,6 +30,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  font-weight: 700;
 }
 .navigation .link-nav {
   color: var(--title-text-color);
@@ -57,6 +58,111 @@ body {
   color: var(--accent-color);
 }
 /* ============ Хедер конец ============ */
+/* ============ СТУДИЯ ============ */
+/* ============ Герой ============ */
+.hero-heading {
+color: var(--primary-text-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero {
+  background-color: #2F303A;
+}
+.hero-button {
+  font-family: inherit;
+  color: var(--primary-text-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+/* ============ Герой конец ============ */
+/* ============ Особенности ============ */
+.qualities-list-subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.qualities-list-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-grey-color)
+}
+/* ============ Особенности конец ============ */
+.about-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-grey-color);
+}
+.team {
+  background-color: #F5F4FA
+;
+}
+/* ============ СТУДИЯ конец ============ */
+/* ============ ПОРТФОЛИО ============ */
+/* ============ Фильтр ============ */
+.filter-button{
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #F5F4FA;
+  cursor: pointer;
+}
+.filter-button.current {
+  background-color: var(--accent-color);
+  color: var(--primary-text-white-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-text-white-color);
+  background-color: var(--accent-color);
+}
+/* ============ Фильтр конец ============ */
+/* ============ Проекты ============ */
+.projects-subtitle {
+  font-family: var(--title-font-family);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.projects-text {
+  font-family: var(--title-font-family);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-grey-color);
+}
+/* ============ Проекты конец ============ */
+/* ============ ПОРТФОЛИО конец ============ */
 /* ============ Футер ============ */
 .logo-footer {
   color: var(--primary-text-white-color);
@@ -64,16 +170,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  background-color: #2f303a;
+  font-weight: 700;
 }
 .address {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  background-color: #2f303a;
   font-style: normal;
-  font-weight: 400;
 }
 .address.address-maps {
   color: var(--primary-text-white-color);
@@ -81,4 +185,8 @@ body {
 .footer {
   background-color: #2f303a;
 }
-/* ============ футер конец ============ */
+.link.address:focus,
+.link.address:hover {
+  color: var(--primary-text-white-color);
+}
+/* ============ Футер конец ============ */
